@@ -1,10 +1,10 @@
 import type * as RDF from 'rdf-js';
-import { BlankNode } from './BlankNode';
-import { DefaultGraph } from './DefaultGraph';
-import { Literal } from './Literal';
-import { NamedNode } from './NamedNode';
-import { Quad } from './Quad';
-import { Variable } from './Variable';
+import { BlankNode } from './BlankNode.ts';
+import { DefaultGraph } from './DefaultGraph.ts';
+import { Literal } from './literal';
+import { NamedNode } from './NamedNode.ts';
+import { Quad } from './quad';
+import { Variable } from './variable';
 
 let dataFactoryCounter = 0;
 
