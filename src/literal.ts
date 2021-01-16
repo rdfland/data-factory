@@ -1,5 +1,5 @@
 import type * as RDF from 'rdf-js';
-import { NamedNode } from './NamedNode.ts';
+import { NamedNode } from './named_node.ts';
 
 /**
  * A term that represents an RDF literal, containing a string with an optional language tag or datatype.
